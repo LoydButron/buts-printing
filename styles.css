@@ -1,0 +1,84 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+84a98c
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    background: linear-gradient(#F1FAEE, #A8DADC);
+    color: black;
+    text-shadow: 0px 0px 10px #457B9D;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    
+    
+}
+.head{
+    height: 250px;
+    background: #84a98c;  
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+#name{
+    font-size: 70px;
+    margin: 0 auto;
+}
+#name:hover{
+    color: #1D3557;
+}
+#tag{
+    font-size: 25px;
+}
+#tag:hover{
+    color: #1D3557;
+}
+
+#logo{
+    width: 200px;
+    height: 100px; 
+    margin-bottom: 5px;
+}
+.main-act{
+    margin: 40px 20px;
+}
+
+.activity{
+    display: flex;
+    justify-content: space-around;
+}
+.guide{
+    margin: 100px auto 0 auto;
+    padding: 10px 10px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background:#A8DADC;
+}
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    background: #84a98c;
+}
+a:hover{
+    font-size: 20px;
+    background-color: #457B9D; 
+}
+a{
+    color: #1D3557;
+}
+h3:hover, p:hover, h4:hover{
+    color: #457B9D;
+    font-weight: bold;
+    font-size: 20px;
+}
